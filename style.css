@@ -3,6 +3,17 @@
     padding:0px;
 
 }
+:root{
+    /* Teal, grey, blue, bright white, dark grey and aqua marine */
+      --defaultcolor:#2b6777;
+  --color-white:#ffffff;/* for fonts */
+  --color-shadow:#c8d8e4;
+  --color-btn-a:#52ab98;
+  --color-btn-b:#f2f2f2;
+    --border-shadow:#3a99b3;
+        
+      }
+  
 .loader{
 height:100vh;
   width:100%;
@@ -18,8 +29,58 @@ height:100vh;
   font-size:73px;
   
 }
-.home{
-    height:100vh;
-    width:100%;
-    background:
+
+.navbar{
+    height:83px;
+  background:var( --defaultcolor);
+  
+  
 }
+.navbar ul {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  
+}
+.navbar .box{
+  list-style: none;
+color: var(--color-white);
+margin:27px 18px 0px 11px;
+  font-size: 1.3rem;
+  transition:all 0.2s ease-in;
+}
+.navbar .box:hover{
+
+  font-size: 1.5rem;
+  font-family: cursive;
+  
+  
+  
+}
+.box a{
+  text-decoration: none;
+  color: var(--color-white);
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:535px;
+  width:100%;
+}
+.home .business-card{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .business-card img{
+ 
+  position:absolute;
+  z-index:-1;
+  height:534px;
+  width:100%;
+  
+  
+  /*! margin: 35px 390px 23px 30px; */
+}
+

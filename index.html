@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-  
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <title>Umang sahu</title>
 </head>
+
 <body onload="myFunction()">
     <div class="loader" id="loader">
-           <span class="typing"></span>
-<script>   // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["you're welcome...", "In my Website:)"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });</script>
+        <span class="typing"></span>
+        <script>   // typing text animation script
+            var typed = new Typed(".typing", {
+                strings: ["you're welcome...", "In my Website:)"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });</script>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li class="box box1"><a href="#"> Home</a></li>
+            <li class="box box2"><a href="#"> about</a></li>
+            <li class="box box3"><a href="#"> services</a></li>
+            <li class="box box4"><a href="#"> Gig/offer</a></li>
+            <li class="box box4"><a href="#">  skills</a></li>
+            <li class="box box4"><a href="#"> works</a></li>
+            <li class="box box4"><a href="#">  contact me</a></li>
+        </ul>
     </div>
     <section class="home">
+        <div class="business-card repo-business-card">
+            <img src="imac-605421.jpg" alt="">
+<div class="left-container"><span>Welcome to my Wardrobe</span></div>
+<div class="right-container"></div>
+        </div>
 
-        
     </section>
     <!-- add javascript for preloader -->
     <script>
-       var preloader=document.getElementById("loader");
-       function myFunction(){
-           preloader.style.display="none";
-       }
+        var preloader = document.getElementById("loader");
+        function myFunction() {
+            preloader.style.display = "none";
+        }
     </script>
 </body>
+
 </html>
