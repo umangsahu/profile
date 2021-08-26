@@ -21,7 +21,7 @@ height:100vh;
   display:flex;
  justify-content: center;
   align-items: center;
-  
+  position:fixed;
   
 }
 .loader .typing, .loader .typed-cursor{
@@ -61,11 +61,12 @@ margin:27px 18px 0px 11px;
   text-decoration: none;
   color: var(--color-white);
 }
+
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:535px;
+  height:659px;
   width:100%;
 }
 .home .business-card{
@@ -77,10 +78,84 @@ margin:27px 18px 0px 11px;
  
   position:absolute;
   z-index:-1;
-  height:534px;
+  height:659px;
   width:100%;
   
   
   /*! margin: 35px 390px 23px 30px; */
 }
 
+.name {
+  font-size: 4.3rem;
+}
+
+.business-card .left-container{
+  font-size:35px;
+  color:var(--color-white);
+  margin:30px 881px 30px 30px;
+  
+}
+.left-container .name, .left-container .profession , .left-container .typed-cursor  {
+  color:var(--defaultcolor);
+  
+}
+.my-inspiration{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+.my-inspiration h1{
+  margin:30px 30px;
+  height:90px;
+  font-size:3.3rem
+}
+
+
+.comon-class{
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin:50px 88px;
+  
+  height:300px;
+    box-shadow:0px 0px 27px 0px grey;
+}
+.comon-class img{
+  height:300px;
+}
+.comon-class .article{
+  margin:30px;
+}
+.skills{
+  background:var(--defaultcolor);
+  /*! height:300px; */
+  display: flex;
+ justify-content: center;
+  align-items center;
+  flex-direction: column;
+  align-items: center;
+}
+.skills h1{
+  margin:20px;
+  
+}
+.skills .skillsbox{
+  display:flex;
+   justify-content: center;
+  align-items center;
+}
+.skillsbox .experience{
+  
+  height:300px;
+  width:50%;
+  
+}
+.skillsbox .skills-li{
+
+  height:300px;
+  width:50%;
+  
+}
