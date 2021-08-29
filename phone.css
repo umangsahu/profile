@@ -247,12 +247,6 @@ transform: translateX(-50%);
   width:100%;
     color: var(--color-white);
   font-size:1.3rem;
-  
-  /*! display: flex; */
-  /*! flex-direction: column; */
-  /*! align-items: center; */
-  /*! justify-content: ; */
-  /*! margin: ; */
   box-sizing: border-box;
   padding: 16px 54px 16px 53px;
 }
@@ -313,24 +307,9 @@ transform: translateX(-50%);
   border-radius:90px;
   /*!  */
 }
-.my-service h1:after{
-  /*! content:"what i provide"; */
-  /*! position: absolute; */
-  /*! width:132px; */
-/*! bottom: -21px; */
-/*! left: 50%; */
-/*! font-size: 21px; */
-/*! color: var(--color-btn-a); */
-/*! padding: 0 5px; */
-/*! background: #fff; */
-/*! transform: translateX(-50%); */
-  /*! text-align: center; */
-  /*! background:var(--defaultcolor); */
-}
+
 .my-service .services{
- /*! display:flex; */
-  /*! align-items: center; */
-  /*! justify-content: center; */
+
   height:462px;
  flex-direction: column;
 }
@@ -420,7 +399,7 @@ transform: translateX(-50%);
   color:var(--color-white);
   
   
-  height: ;
+ 
   padding: 1vw;
 }
 .left-container h3{
@@ -563,7 +542,7 @@ transform: translateX(-50%);
     font-size:2.9rem;
   }
   .my-inspiration h1:before{
-    bottom: 40px; 
+    bottom: 28px; 
     width: 280px;
     
 }
@@ -588,17 +567,71 @@ bottom: 20px;
   .my-inspiration h1{
     font-size:2.9rem;
   }
-  .my-inspiration h1:before{
+  .my-inspiration h1::before{
        
     bottom: 40px;
     width: 280px;
 }
-  }
+  
 .my-inspiration h1::after{
   
 width: 229px;
-bottom: -7px;
+bottom: 32px;
 
 }
 }
 
+@media screen and (max-width:363px){
+  html{
+    font-size:10px;
+  }
+ .business-card .left-container{
+    width:60%;
+   height:110px;
+  }
+  .my-inspiration h1{
+    font-size:2.9rem;
+  }
+  .my-inspiration h1::before{
+       
+    bottom: 40px;
+    width: 280px;
+}
+  
+.my-inspiration h1::after{
+  
+width: 229px;
+bottom: 32px;
+
+}
+.common-box .box {
+ margin-top:-20px;
+}
+}
+@media screen and (max-width:337px){
+  html{
+    font-size:9px;
+  }
+ .right-container form .input-box {
+    height: 30px;
+    margin: 4px 40px 2px 30px ;
+    width: 207px;
+    border-radius: 10px;
+    border: 2px solid var(--color-white);
+    font-family: 'Kaisei Tokumin', serif;
+    color: var(--defaultcolor);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+  .right-container form #desc{
+    min-height: 90px;
+min-width: 207px;
+max-height: 90px;
+max-width: 207px;
+  }
+  .right-container form button{
+    margin:10px 0px 20px 40px;
+  }
+  
+
+}
