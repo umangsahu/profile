@@ -549,4 +549,14 @@ transform: translateX(-50%);
   margin:1px 30px 30px 30px;
   
 }
+@media screen and (max-width:400px){
+  html{
+    font-size:10px;
+  }
+ .business-card .left-container{
+    width:60%;
+   height:110px;
+  }
+  
+}
 
