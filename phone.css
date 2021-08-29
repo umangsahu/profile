@@ -170,6 +170,7 @@ transform: translateX(-50%);
     box-shadow:0px 0px 27px 0px grey;
     /*! align-content: ; */
     flex-direction: column;
+    width: 59%;
 }
 .comon-class img{
   height:289px;
@@ -549,7 +550,34 @@ transform: translateX(-50%);
   margin:1px 30px 30px 30px;
   
 }
-@media screen and (max-width:400px){
+
+@media screen and (max-width:645px){
+  html{
+    font-size:14px;
+  }
+ .business-card .left-container{
+    width:60%;
+   height:160px;
+  }
+  .my-inspiration h1{
+    font-size:2.9rem;
+  }
+  .my-inspiration h1:before{
+    bottom: 40px; 
+    width: 280px;
+    
+}
+  
+.my-inspiration h1:after{
+  
+width: 229px;
+bottom: 20px;
+
+  }
+  .services .common-box{
+    margin: 20px 90px 0px 90px;
+  }}
+@media screen and (max-width:471px){
   html{
     font-size:10px;
   }
@@ -557,6 +585,20 @@ transform: translateX(-50%);
     width:60%;
    height:110px;
   }
+  .my-inspiration h1{
+    font-size:2.9rem;
+  }
+  .my-inspiration h1:before{
+       
+    bottom: 40px;
+    width: 280px;
+}
+  }
+.my-inspiration h1::after{
   
+width: 229px;
+bottom: -7px;
+
+}
 }
 
