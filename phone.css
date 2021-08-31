@@ -558,7 +558,7 @@ bottom: 20px;
   }}
 @media screen and (max-width:471px){
   html{
-    font-size:10px;
+    font-size:9px;
   }
  .business-card .left-container{
     width:60%;
@@ -583,7 +583,7 @@ bottom: 32px;
 
 @media screen and (max-width:363px){
   html{
-    font-size:10px;
+    font-size:9px;
   }
  .business-card .left-container{
     width:60%;
@@ -610,7 +610,7 @@ bottom: 32px;
 }
 @media screen and (max-width:337px){
   html{
-    font-size:9px;
+    font-size:8px;
   }
  .right-container form .input-box {
     height: 30px;
