@@ -7,6 +7,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size:15px;
 }
 :root{
     /* Teal, grey, blue, bright white, dark grey and aqua marine */
@@ -130,7 +131,7 @@ margin:27px 18px 0px 11px;
 .my-inspiration h1:before{
 content: "";
 position: absolute;
-bottom: 0;
+bottom: 0px;
 left: 50%;
 width: 369px;
 height: 3px;
@@ -142,10 +143,10 @@ transform: translateX(-50%);
 .my-inspiration h1:after{
   content:"People I'm Impressed with";
   position: absolute;
-  width:235px;
+  width:206px;
 bottom: -8px;
 left: 50%;
-font-size: 20px;
+font-size: 1.2rem;
 color: var(--defaultcolor);
 padding: 0 5px;
 background: #fff;
@@ -217,7 +218,7 @@ transform: translateX(-50%);
   width:114px;
 bottom: 5px;
 left: 50%;
-font-size: 21px;
+font-size: 1.2rem;
 color: var(--color-btn-a);
 padding: 0 5px;
 background: #fff;
@@ -307,10 +308,10 @@ transform: translateX(-50%);
 .my-service h1:after{
   content:"what i provide";
   position: absolute;
-  width:132px;
+  width:43%;
 bottom: -21px;
 left: 50%;
-font-size: 21px;
+font-size: 1.2rem;
 color: var(--color-btn-a);
 padding: 0 5px;
 background: #fff;
@@ -375,7 +376,7 @@ transform: translateX(-50%);
     width: 107px;
     bottom: -21px;
     left: 50%;
-    font-size: 21px;
+    font-size:1.2rem;
     color: var(--color-btn-a);
     padding: 0 5px;
     background: #fff;
@@ -536,7 +537,7 @@ transform: translateX(-50%);
 
 @media  screen and (max-width:1272px){
   html{
-    font-size:15px
+    font-size:14px
   }
   .business-card .left-container {
     margin: 15vw 37vw 14vw -18vw;

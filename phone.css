@@ -568,15 +568,19 @@ bottom: 20px;
     font-size:2.9rem;
   }
   .my-inspiration h1::before{
-       
-    bottom: 40px;
-    width: 280px;
-}
+    bottom: 36px;
+    /*! width: 178px; */
+  }
+  
+  .my-inspiration h1::after{
+    width:197px;
+    /*! font-size:rem; */
+  }
   
 .my-inspiration h1::after{
   
 width: 229px;
-bottom: 32px;
+bottom: 27px;
 
 }
 }
@@ -592,18 +596,7 @@ bottom: 32px;
   .my-inspiration h1{
     font-size:2.9rem;
   }
-  .my-inspiration h1::before{
-       
-    bottom: 40px;
-    width: 280px;
-}
-  
-.my-inspiration h1::after{
-  
-width: 229px;
-bottom: 32px;
 
-}
 .common-box .box {
  margin-top:-20px;
 }
@@ -612,6 +605,7 @@ bottom: 32px;
   html{
     font-size:8px;
   }
+  
  .right-container form .input-box {
     height: 30px;
     margin: 4px 40px 2px 30px ;
@@ -632,6 +626,7 @@ max-width: 207px;
   .right-container form button{
     margin:10px 0px 20px 40px;
   }
-  
+
+  }
 
 }
