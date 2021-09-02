@@ -32,7 +32,7 @@
             });</script>
     </div>
 
-    <div class="navbar">
+<div class="navbar " id="repo-nav">    <!--  responsive navbar -->
         <ul>
             <li class="box box1"><a href="#">Home</a></li>
             <li class="box box2"><a href="#">about</a></li>
@@ -44,15 +44,15 @@
             <a href=""></a>
         </ul>
     </div>
-    <div class="burger">
+    <div class="burger" id="burger" onclick="run()">
         <div class="line line-1"></div>
         <div class="line line-2"></div>
         <div class="line line-3"></div>
     </div>
     <section class="home">
         <div class="business-card repo-business-card">
-            <!-- <img src="https://source.unsplash.com/1600x900/?tech" alt=""> -->
-            <img src="domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="">
+          <img src="https://source.unsplash.com/1600x900/?tech" alt="">   <!-- this the unsplash api to choose random picturre -->
+            <!-- <img src="domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt=" home picture"> -->
             <div class="left-container">
                 <span class="hello">Hello, my name is</span> <br><Span class="name">Umang sahu</Span> <br>
                 And I'm a <span class="profession"></span>
@@ -64,6 +64,15 @@
                     loop: true
                 });</script>
         </div>
+        <script>
+           var burger=  document.getElementById("burger");
+           var navbar=  document.getElementById("repo-nav");
+ function run(){
+     navbar.classList.toggle('active');
+ }
+ 
+        </script>
+
 
     </section>
     <!-- add javascript for preloader -->
