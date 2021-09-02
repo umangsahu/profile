@@ -223,7 +223,7 @@ transform: translateX(-50%);
 .skills h1:after{
   content:"what i know";
   position: absolute;
-  width:70px;
+  width:78px;
 bottom: 35px;
 left: 50%;
 font-size: 1.2rem;
@@ -596,7 +596,7 @@ bottom: 20px;
   
 .my-inspiration h1::after{
   
-width: 139px;
+width: 149px;
 bottom: 32px;
 
 font-size: 1.2rem;
