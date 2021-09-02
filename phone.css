@@ -211,7 +211,7 @@ margin-top: 10px;
 .skills h1:before{
 content: "";
 position: absolute;
-bottom: 14px;
+bottom: 40px;
 left: 50%;
 width: 173px;
 height: 3px;
@@ -223,8 +223,8 @@ transform: translateX(-50%);
 .skills h1:after{
   content:"what i know";
   position: absolute;
-  width:60px;
-bottom: 11px;
+  width:70px;
+bottom: 35px;
 left: 50%;
 font-size: 1.2rem;
 color: var(--color-btn-a);
@@ -596,7 +596,7 @@ bottom: 20px;
   
 .my-inspiration h1::after{
   
-width: 135px;
+width: 139px;
 bottom: 32px;
 
 font-size: 1.2rem;
