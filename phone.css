@@ -117,6 +117,17 @@ margin:27px 18px 0px 11px;
   color:var(--color-btn-a);
   
 }
+.about-me .aboutme-box{
+  flex-direction: column;
+}
+ 
+.aboutme-box .left-container{ 
+  margin: 6px 67px 14px 2px;}
+
+.aboutme-box .left-container img{
+  height:254px;
+  width:183px;
+}
 .my-inspiration{
   display: flex;
   justify-content: center;

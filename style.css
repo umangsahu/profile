@@ -4,6 +4,7 @@
     margin:0px ;
     padding:0px;
 
+
 }
 html {
   scroll-behavior: smooth;
@@ -19,7 +20,9 @@ html {
     --border-shadow:#3a99b3;
         
       }
-  
+  body{
+    background:white;
+  }
 .loader{
 height:100vh;
   width:100%;
@@ -113,6 +116,79 @@ margin:27px 18px 0px 11px;
 .left-container .name, .left-container .profession , .left-container .typed-cursor  {
   color:var(--color-btn-a);
   
+}
+.about-me{
+    display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  
+ background: var(--defaultcolor);
+ overflow: hidden;
+}
+.about-me h1{
+    margin:30px 30px;
+  height:90px;
+  font-size:3.3rem;
+  position:relative;
+  
+    color: var(--color-white);
+}
+.about-me h1:before{
+content: "";
+position: absolute;
+bottom: 0px;
+left: 50%;
+width: 369px;
+height: 3px;
+background: var(--color-white);
+transform: translateX(-50%);
+  border-radius:90px;
+  /*!  */
+}
+.about-me h1:after{
+  content:"know about me";
+  position: absolute;
+  width:147px;
+bottom: -8px;
+left: 50%;
+font-size: 1.2rem;
+color: var(--color-btn-a);
+padding: 0 5px;
+background: var(--defaultcolor);
+transform: translateX(-50%);
+  text-align: center;
+}.about-me .aboutme-box{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  
+margin: 0px 0px 53px 0px;
+/*! box-shadow: 2px 0px 130px -118px; */
+width: 100%;
+/*! background: var(--color-white); */
+}
+.about-me .left-container{
+ width:50%;
+  display: flex;
+ justify-content: flex-end;
+   margin:71px 11px 53px -83px;
+  
+ align-items: center;
+ /*! margin: auto; */
+ width: 40%;
+ /*! margin: auto; */
+}
+.about-me .left-container img{
+  height:375px;
+  width:248px;
+ 
+}
+.about-me .right-container{
+   width:86%;
+  margin:12px 9px 0px 10px;
+   font-size: 1.3rem;
+   color: var(--color-white);
 }
 .my-inspiration{
   display: flex;
@@ -333,7 +409,7 @@ transform: translateX(-50%);
   flex-direction:column;
   margin:0px 76px 0px 81px;
    padding: 16px 13px 14px 13px;
-  border: 2px solid var(--defaultcolor);
+  /*! border: 2px solid var(--defaultcolor); */
   border-radius: 12px;
 }
 .services .common-box:hover{
@@ -555,6 +631,9 @@ transform: translateX(-50%);
     .left-container{
       
     }
+     .aboutme-box .left-container{
+    margin:30px;
+  }
     .business-card .left-container{
       font-size: 2.3rem;
       height: 180px;
@@ -591,6 +670,9 @@ transform: translateX(-50%);
     height: 180px;
     width:300px;
 }
+  .aboutme-box .left-container{
+    margin:30px;
+  }
   .comon-class {
     height: 560px;
     margin: 50px 34px;
