@@ -183,4 +183,19 @@ hr {
     html{
       font-size: 13px;
     }
+    .mywork .coding .card  .btn{
+      font-size: 1.1rem;
+      background:var(--color-btn-a);
+      text-decoration: none;
+      position:relative;
+     top:30px;
+      left:40px;
+      border-radius:10px;
+      display: block;
+      height:23px;
+      width:9.5rem;
+      padding: 6px;
+      color: var(--color-white);
+    }
+    
   }
