@@ -147,7 +147,7 @@ transform: translateX(-50%);
   /*!  */
 }
 .about-me h1:after{
-  content:"know about me";
+  content:"know me better";
   position: absolute;
   width:147px;
 bottom: -8px;
@@ -425,8 +425,27 @@ transform: translateX(-50%);
   margin-bottom: 18px;
 }
 .common-box .box{
- font-size:1.2rem;
+ font-size:1.3rem;
   
+ max-width: 338px;
+}
+
+.box h2{
+  margin:15px 0px 10px 0px;
+}
+#hire-me{
+  
+    background: var(--color-btn-a);
+    margin: 15px;
+    color: var(--color-white);
+    padding: 7px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-decoration: none;
+
 }
 .contact-me {
   display: flex;

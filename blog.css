@@ -1,0 +1,38 @@
+.content{
+  display:flex;
+  justify-items: center;
+  align-items: center;
+  margin:30px 30px 30px 30px;
+  max-width: 100%;
+  
+}
+.content .ad{
+  display: flex;
+  max-width: 315px;
+  /*! border-radius: 20px; */
+}
+.ad .card{
+  max-width: 400px;
+  max-height: 440px;
+  overflow: hidden;
+  padding:10px;
+    margin:30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 51px -17px;
+  border: 4px double var(--border-shadow);
+}
+.ad aside img{
+  WIDTH:100PX;
+}
+
+.article {
+   display: flex;
+  justify-content: flex-end;
+   box-sizing: border-box;
+  padding:40px;
+  max-width: 651px;
+  
+}
+.content .recommendation{
+  max-width: 151px;
+}
